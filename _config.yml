@@ -1,6 +1,8 @@
 title: Hirotaka Ogawa
+#description: > # this means to ignore newlines until "baseurl:"
+#  A researcher going back and forth between Odaiba, Tsukuba, and Ookayama, Japan. The views expressed here are mine alone and not those of my employer.
 description: > # this means to ignore newlines until "baseurl:"
-  A researcher going back and forth between Odaiba, Tsukuba, and Ookayama, Japan. The views expressed here are mine alone and not those of my employer.
+  A researcher serving as a temporary bureaucrat. The views expressed here are mine alone and not those of my employer.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ogawa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
