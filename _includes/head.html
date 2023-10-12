@@ -43,7 +43,6 @@
     {% endfor %}
   {% endif %}
 
-  {% comment %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.site-twitter }}">
     <meta name="twitter:creator" content="@{{ site.social-twitter }}">
@@ -65,7 +64,6 @@
   {% else %}
     <meta name="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author-img }}">
   {% endif %}
-  {% endcomment %}
 
 	<meta name="description" content="{{ page.description }}">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -82,8 +80,7 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
 	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="{{ "/assets/fonts/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
 	<!-- Styles -->
